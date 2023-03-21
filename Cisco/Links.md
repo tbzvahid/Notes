@@ -13,3 +13,6 @@ https://www.cisco.com/c/en/us/support/web/tools-catalog.html
 
 ## Cisco Optics-to-Device Compatibility Matrix
 https://tmgmatrix.cisco.com/
+
+## Cisco Software Checker
+https://sec.cloudapps.cisco.com/security/center/softwarechecker.x
