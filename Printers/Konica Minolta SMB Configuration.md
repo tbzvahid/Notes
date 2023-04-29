@@ -15,3 +15,5 @@ Applied to these models: </br>
 | File Path | \scandocument\scandocument |
 | User ID | Shared Folder Username |
 | Password | Shared Folder Password |
+
+Configuration on Printer finished. If you configured your share folder permissions properly you can now start scanning document to Share Folder via SMB protocol.
