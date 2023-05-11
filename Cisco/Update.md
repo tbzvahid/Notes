@@ -16,5 +16,8 @@ Switch#**write memory**</br>
 Switch#**reload**
 
 #### Note: Before Update IOS from 150.2 to 152.7
-If you are goint to update IOS from version 150-2EA to 152-7MD , the following GBIC modules will not function and port status will change to <b>err-disabled</b> status </br>
-**GLC-SX-MMD**
+If you are goint to update IOS from version 150-2EA to 152-7MD , the 3rd party GBIC's will not function and port status will change to <b>err-disabled</b> status </br> the following commans 
+**will not work too.**</br>
+**Switch(config)#service unsupported-transceiver**</br>
+**Switch(config)#no errdisable detect cause gbic-invalid**
+
