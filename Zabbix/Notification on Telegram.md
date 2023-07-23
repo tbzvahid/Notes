@@ -9,8 +9,8 @@ a- Create a Bots , ID and Channel on Telegram
  6- Go to ELXBOT
  7- type /start
  8- Create a New Channel name it ELXChannel
- 9- go to ELXBOT and add this bot to ELXChannel
- 10- Go to IDBot and add this bot to ELXChannel (Post Messages right has to enable when adding )
+ 9- go to ELXBOT and add this bot to ELXChannel (Post Messages right has to enable when adding )
+ 10- Go to IDBot and add this bot to ELXChannel 
  11-Go to ELXChannel and type /getgroupid
 b-Configure Telegram Media Type
 1- browse the following address https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/media/telegram/media_telegram.yaml?at=refs%2Fheads%2Frelease%2F6.4
@@ -46,5 +46,5 @@ c- Create a User, a User Group, a User Role
     1-Select Host group then Read and also check Include subgroups click on Add
    3-In Problem tag filter
     1- Select Host group and check Include subgroups Click on Add at last click on Update
- Create a User and assign User Role and User Group
+ 
  
