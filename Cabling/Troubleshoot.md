@@ -3,4 +3,4 @@ Users complain of low speed of the internet and you check on the switch and find
 1. Use iPerf to verify Bandwidth and throughput.</br>
 2. Verify connectivity on both sides of the cable with a cable tester.</br>
 3. Verify RJ45 is connected on both sides, especially on the side RJ45 plugged into the endpoint device, if it is possible replace it with a new one. </br>
-4. verify the twisted cable connected to RJ45 on both sides, the length of untwisted cable connected to RJ45 should not be more than 1.27cm, from the separated part to the head of the wires.</br>
+4. verify the twisted cable connected to RJ45 on both sides, the length of untwisted cable length connected to RJ45 should not be more than 1.27cm, from the separated part (untwisted) to the head of the wires.</br>
