@@ -44,4 +44,7 @@ In the Database form choose External and select MySQL / MariaDB.</br>
   Driver class: **com.mysql.cj.jdbc.Driver**</br>
   Connection URL: **jdbc:mysql://localhost/logicaldoc?serverTimezone=UTC**</br>
   Username: **admin**</br>
-  Password: **your MariaDB database password (by default it is admin)** </br>
+  Password: **your MariaDB database password (by default it is admin)** </br></br>
+
+  ## If you restart server and service not started
+  sudo bash /LogicalDOC-Community/bin/logicaldoc.sh start
