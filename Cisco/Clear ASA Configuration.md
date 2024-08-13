@@ -1,5 +1,5 @@
 ### Clear ASA 5520 Configuration
-rommon #0> <b>configreg 0x41 </b></br>
+rommon #0> <b>confreg 0x41 </b></br>
 rommon #1> <b>boot </b></br>
 ciscoasa> <b>en </b></br>
 Password: only Press Enter </br>
