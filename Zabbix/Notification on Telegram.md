@@ -10,7 +10,7 @@ a- Create a Bots , ID and Channel on Telegram
  7- type /start
  8- Create a New Channel name it ELXChannel
  9- go to ELXBOT and add this bot to ELXChannel (Post Messages right has to enable when adding )
- 10- Go to IDBot and add this bot to ELXChannel (Post Messages right has to enable when adding )
+ 10- Go to IDBot(@myidbot) and add this bot to ELXChannel (Post Messages right has to enable when adding )
  11-Go to ELXChannel and type /getgroupid
 b-Configure Telegram Media Type
 1- browse the following address https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/media/telegram/media_telegram.yaml?at=refs%2Fheads%2Frelease%2F6.4
