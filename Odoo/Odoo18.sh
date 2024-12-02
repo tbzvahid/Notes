@@ -1,7 +1,3 @@
-## Create a file
-nano install_odoo18.sh
-
-## Add these to Created bash file
 #!/bin/bash
 
 # Update and upgrade the system
@@ -87,8 +83,3 @@ sudo systemctl enable --now odoo18
 # Verify Odoo service status
 echo "Checking Odoo service status..."
 sudo systemctl status odoo18
-
-
-## make file excutable
-chmod +x install_odoo18.sh
-sudo ./install_odoo18.sh
