@@ -8,3 +8,9 @@ Code: [0xc000021a](https://geekflare.com/resolve-0xc000021a-error)</br>
 </br>
 
 > sfc /scannow </br>
+
+### Change Profile in Windows 11 from Public to Private </br>
+
+> Get-NetConnectionProfile </br>
+> Set-NetConnectionProfile -Name "Network" -NetworkCategory "private" </br>
+
