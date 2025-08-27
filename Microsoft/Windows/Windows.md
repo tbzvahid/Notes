@@ -14,3 +14,13 @@ Code: [0xc000021a](https://geekflare.com/resolve-0xc000021a-error)</br>
 > Get-NetConnectionProfile </br>
 > Set-NetConnectionProfile -Name "Network" -NetworkCategory "private" </br>
 
+### Error During Installation
+#### Windows installation encountered an unexpected error. Error Code: 0x80070057 - 0x4002F
+Press <b>Shift+F10</b> during installation</br>
+
+> diskpart</br>
+> list disk</br>
+> select disk 0</br>
+> clean</br>
+> exit</br>
+
