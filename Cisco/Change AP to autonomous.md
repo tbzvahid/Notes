@@ -11,7 +11,16 @@
  <b>tftp_initial</b></br>
  <b>tar -xtract tftp://192.168.0.10/APfile.tar flash: </b></br>
  <b>set BOOT flash://APfile/APfile</b></br>
+</br>
+</br>
+</br>
 
-Link to Download Firmwares 
+ ### Models and firmware version
+ AIR-CAP3502I-A-K9 = ap3g1
+ 
+</br>
+</br>
+
+### Link to Download Firmwares 
 https://www.dropbox.com/scl/fo/o0hflib0ktaerv14ytwuu/ANg7NxSixgWt1w1rJMrcMLY?rlkey=2pgbeelqzfsq7kblhq3qey2hx&st=vziwqpou&dl=0
  
