@@ -2,7 +2,10 @@
 ### AP covered 1140, 3500, 3600 series
 
 <li>Press and hold restart then plug-in network cable wait until enter ROMMON </br>
-<li>use <b>format flash: </b> to clear all files from flash</br>
+<li> if not in normal mode with user <b> cisco</b> and passsword <b> Cisco</b> enter User mode then with secret <b> Cisco</b> enter privelidge mode after use this commanmd to delete all contents of flash </li>
+<li><b>delete /force /recursive flash:</b></li>
+<li>after that reboot AP and automatically you will enter ROMMON  mode</li>
+<li>use <b>format flash: </b> to clear all files from flash
 <li>Run TFTP Server on PC or Laptop</br>
 <li>Config AP to get access TFTP server</br>
  <li><b>set IP_ADDR 192.168.0.10</b></br>
