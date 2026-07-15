@@ -11,8 +11,8 @@
  <li><b>set IP_ADDR 192.168.0.10</b></br>
  <b>set NETMASK 255.255.255.0 </b></br>
  <b>set DEFAULT_ROUTER 192.168.0.1 </b></br>
- <b>tftp_initial</b></br>
- <b>tar -xtract tftp://192.168.0.10/APfile.tar flash: </b></br>
+ <b>tftp_init</b></br>
+ <b>tar -xtract tftp://192.168.0.20/APfile.tar flash: </b></br>
  <b>set BOOT flash://APfile/APfile</b></br>
 </br>
 </br>
