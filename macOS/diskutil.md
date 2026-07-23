@@ -6,3 +6,6 @@
 
 ### Create APFS Partition
 >  diskutil eraseDisk APFS "Macintosh HD" /dev/disk0
+
+### If you couldn't erase disk
+>  diskutil unmountDisk force /dev/disk0
