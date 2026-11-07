@@ -1,18 +1,61 @@
-### Got share screen error when connecting from remote system
-### Change Desktop from GNOM to XFC X11
+## Install and Configure XFCE Desktop with X11 on Ubuntu
 
-Follow the commands</br>
-sudo apt update</br>
-sudo apt install xfce4 xfce4-goodies xorg</br>
+Follow these steps to install the XFCE desktop environment and configure Ubuntu to use X11 instead of Wayland.
 
-then choose lightdm</br>
+### 1. Install XFCE and Xorg
 
-the edit this file </br>
-sudo nano /etc/gdm3/custom.conf</br>
- add the following line  at the end of [daemon] </br>
- WaylandEnable=false</br>
+Open the terminal and execute the following commands:
 
-Then sign out and beside login screen click on gear icon and choose XFC after that login </br>
+```bash
+sudo apt update
+sudo apt install xfce4 xfce4-goodies xorg
+```
 
- Then save and reboot system by the following command </br>
- sudo reboot</br>
+During installation, if prompted to select a display manager, choose **lightdm**.
+
+### 2. Disable Wayland
+
+Open the GDM configuration file:
+
+```bash
+sudo nano /etc/gdm3/custom.conf
+```
+
+Locate the `[daemon]` section and add or uncomment the following line:
+
+```ini
+WaylandEnable=false
+```
+
+Save the file and exit the editor.
+
+### 3. Switch to the XFCE Desktop
+
+1. Sign out of your current desktop session.
+2. At the login screen, click the **gear icon**.
+3. Select **Xfce Session**.
+4. Log in with your credentials.
+
+### 4. Reboot the System
+
+Restart your system:
+
+```bash
+sudo reboot
+```
+
+### 5. Verify the Display Server
+
+After logging in, open the terminal and execute:
+
+```bash
+echo $XDG_SESSION_TYPE
+```
+
+Expected output:
+
+```text
+x11
+```
+
+**Note:** XFCE normally uses X11 by default. If you select LightDM instead of GDM3, modifying `/etc/gdm3/custom.conf` is generally unnecessary because LightDM does not use that configuration file.
