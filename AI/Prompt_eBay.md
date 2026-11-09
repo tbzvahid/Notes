@@ -1,0 +1,9 @@
+I'm preparing eBay listings for a batch of items, and I need you to produce a wholesale price, a listing title, and a listing description for each one. Every listing must comply with eBay's current policies, so check each item against those policies before you take any action on it. If an item, a claim, a brand reference, or a piece of wording would violate a policy (prohibited or restricted items, brand and trademark use, condition disclosure, keyword stuffing, misleading claims, and so on), change it to a compliant version or flag it and explain why. Use web search to confirm the current policy where you can, so the listings don't rely on outdated rules.
+
+**Pricing.** For each item, give me a wholesale price that is lower than the going market price, so I keep room for margin when I resell. Research current market prices for that specific item in that specific condition, and don't treat New and Used as interchangeable. Each item has a stated condition (New or Used), and the price must reflect it. Used items should be priced below comparable New ones, adjusted for any wear or defects I mention. State briefly what market price your wholesale figure is based on, so I can sanity-check it.
+
+**Titles and descriptions.** Write a title and a description for each item. Make the title clear, accurate, and searchable, within eBay's title length limit, with the condition stated honestly. Make the description truthful and specific to the item, disclosing its condition and any flaws, and never promise features or quality the item doesn't have.
+
+My item list, with each item's condition, is below. If any detail is missing for an item (brand, model, size, defects), work with what's given and note the assumption rather than inventing specifics.
+
+[PASTE YOUR ITEM LIST HERE, with each item's name and condition: New or Used]
